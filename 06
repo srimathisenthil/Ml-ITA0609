@@ -1,0 +1,10 @@
+bill = float(input("Enter food bill: "))
+
+gst = bill * 0.05
+service = bill * 0.10
+total = bill + gst + service
+
+print("Food Bill =", bill)
+print("GST =", gst)
+print("Service Charge =", service)
+print("Total Bill =", total)
