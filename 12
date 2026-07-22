@@ -1,0 +1,6 @@
+amount = float(input("Recharge Amount: "))
+
+cashback = amount*0.05
+final = amount-cashback
+
+print("Final Amount =", final)
