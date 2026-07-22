@@ -1,0 +1,9 @@
+tickets = int(input("Number of Tickets: "))
+price = 150
+
+total = tickets * price
+
+if tickets >= 5:
+    total *= 0.9
+
+print("Total Ticket Cost =", total)
