@@ -1,0 +1,11 @@
+total = int(input("Total Classes: "))
+attended = int(input("Classes Attended: "))
+
+per = attended/total*100
+
+print("Attendance =", per)
+
+if per >= 75:
+    print("Eligible")
+else:
+    print("Not Eligible")
