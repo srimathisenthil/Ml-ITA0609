@@ -1,0 +1,6 @@
+stock = int(input("Current Stock: "))
+
+if stock < 20:
+    print("Low Stock! Reorder Required")
+else:
+    print("Stock Available")
