@@ -1,0 +1,8 @@
+temps = []
+
+for i in range(7):
+    temps.append(float(input("Temperature: ")))
+
+print("Maximum =", max(temps))
+print("Minimum =", min(temps))
+print("Average =", sum(temps)/7)
